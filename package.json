@@ -1,0 +1,17 @@
+{
+  "name": "vector-database-food-similarity",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ilies T",
+    "url": "https://ilies.ch"
+  },
+  "type": "module",
+  "scripts": {
+    "data-mining": "node --no-warnings=ExperimentalWarning ./data-mining.js",
+    "migration": "node --no-warnings=ExperimentalWarning ./migration.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "chromadb": "^1.7.3"
+  }
+}
